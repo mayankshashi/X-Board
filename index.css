@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+html,
+body{
+    font-family: "Montserrat","segeo UI","Roboto","Open Sans","Helvetica Neue",sans-serif;
+    width: 80vw;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar-brand{
+    
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #292B2E;
+}
+.carousal-img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@media (min-width: 768px){
+    .carousal-img{
+        width: 100%;
+        height: 400px;
+    }
+}
+
+.card{
+    background-color: unset;
+    background-clip: unset;
+    border: none;
+}
+
+img:hover{
+    filter: brightness(50%);
+    transform: scale(1.05);
+    transition: all 0.4s;
+}
+
+#icon{
+    width: 27px;
+    height: 9px;
+    left: 1px;
+    top: 10px;
+    background: linear-gradient(96.34deg, #E537B9 0%, #C040DF 100%);
+    border-radius: 4.5px;
+}
+
+.accordion-btn{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    border: none;
+    padding: 1rem;
+    margin: 0;
+    background-color: #fff;
+    color: #737373;
+}
+
+.accordion-btn:before{
+    /* content:"\f107"; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: block;
+    font-family: "FontAwesome";
+    font-size: 1.1 rem;
+}
+h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #252B42;
+}
+.card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px; 
+    letter-spacing: 0.1px;
+    color: #292B2E;
+    
+}
+.card-subtitle{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #586069;
+}
+.acordian-card{
+    border:none;
+    text-decoration: none;
+}
